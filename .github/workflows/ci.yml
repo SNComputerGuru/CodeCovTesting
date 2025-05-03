@@ -16,7 +16,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
-          node-version: '18'  # Adjust as needed
+          node-version: '18'  # Or use your specific version
 
       - name: Install dependencies
         run: npm install
@@ -24,8 +24,8 @@ jobs:
       - name: Run tests with coverage
         run: npm test -- --coverage --watchAll=false
 
-      - name: Upload coverage reports to Codecov
-        uses: codecov/codecov-action@v5
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
         with:
-          token: ${{ secrets.CODECOV_TOKEN }}
+          token: ${{ secrets.CODECOV_TOKEN }}  # Optional for public repos
           slug: SNComputerGuru/ForCodeCovTesting
