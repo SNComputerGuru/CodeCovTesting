@@ -1,3 +1,5 @@
+[![codecov](https://codecov.io/gh/SNComputerGuru/ForCodeCovTesting/graph/badge.svg?token=GOU33DMOVJ)](https://codecov.io/gh/SNComputerGuru/ForCodeCovTesting)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
